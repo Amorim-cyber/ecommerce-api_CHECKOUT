@@ -3,9 +3,7 @@ package br.com.ecommerce.checkout.entity;
 import lombok.Builder;
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Builder
 @Data
@@ -13,6 +11,7 @@ import javax.persistence.Id;
 public class CheckoutEntity {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column
