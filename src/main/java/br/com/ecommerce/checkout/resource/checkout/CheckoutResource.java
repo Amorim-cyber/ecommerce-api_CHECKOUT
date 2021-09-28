@@ -3,6 +3,7 @@ package br.com.ecommerce.checkout.resource.checkout;
 import br.com.ecommerce.checkout.entity.CheckoutEntity;
 import br.com.ecommerce.checkout.event.CheckoutCreatedEvent;
 import br.com.ecommerce.checkout.service.CheckoutService;
+import br.com.ecommerce.checkout.steaming.CheckoutCreatedSource;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
