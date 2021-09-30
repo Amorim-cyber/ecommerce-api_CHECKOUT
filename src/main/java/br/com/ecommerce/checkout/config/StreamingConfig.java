@@ -8,5 +8,6 @@ import org.springframework.context.annotation.Configuration;
 @EnableBinding(value = {
         CheckoutCreatedSource.class
 })
+
 public class StreamingConfig {
 }

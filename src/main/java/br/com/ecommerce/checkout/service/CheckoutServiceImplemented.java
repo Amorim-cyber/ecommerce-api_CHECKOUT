@@ -6,7 +6,6 @@ import br.com.ecommerce.checkout.repository.CheckoutRepository;
 import br.com.ecommerce.checkout.resource.checkout.CheckoutRequest;
 import br.com.ecommerce.checkout.steaming.CheckoutCreatedSource;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 
